@@ -1,0 +1,150 @@
+body {
+    /* max-width: px; */
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    background-color: #7fb069;
+}
+/* img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+} */
+#logo_link{
+    display: flex;
+    align-items: left !important;
+    justify-content: left;
+}
+
+.logo img {    
+   text-align: left !important; 
+}
+.card-img {
+    text-align: center;
+    align-items: center;
+}
+.home-grid section{
+    /* border: 1px solid blue; */
+    width: 35%;
+    margin: 0 auto;
+}
+.home-grid .card-img{
+    display: inline-block;
+    /* margin: 0 auto; */
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+section img.icon {
+    display: inline;
+} 
+.home-grid section h2 {
+    text-align: center !important;
+}
+#hero h4 h1, #hero div {
+    text-align: center;
+    display: block;
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg {
+    display: block;
+   text-align: center !important; 
+}
+
+.button-box, .button{
+    text-align: center;
+    color: black;
+}
+#rural women gathering.jpg h2{
+    text-align: center;
+} 
+#main class{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+header{
+    background-color: rgba(12,10,20,.1);
+}
+nav a:hover {
+    background-color:beige
+}
+home-title{
+    background:#ffffff;
+}
+h4{
+    background-color: #ffffff;
+    }
+.book, .join{
+    background-color:blanchedalmond
+}
+.msg h2{
+    background-color: azure;
+}
+footer a{
+    background-color: blanchedalmond;
+}
+footer a:hover{
+    background-color: aqua;
+}
+logo.png{
+    width: 80px;
+}
+/* #hero-msg{
+    width: 100px;
+} */
+
+#rural women gathering_icon.png{
+    width: 80px;
+}
+
+.African women working_icon.png{
+    width: 80px
+}
+.women farming_icon.png{
+    width: 80px;
+}
+nav a{
+    text-align: center;
+    color: #1d1a05 ;
+    text-decoration: none;
+}
+.donate{
+    text-align: center;
+    color: #1d1a05 ;
+    text-align: none;
+}
+footer a{
+    text-align: center;
+    color: #1d1a05;
+    text-decoration: none;
+}
+
+  
+footer h3 a:hover{
+    text-align: center;
+    color: #f73718;
+    text-decoration: underline;
+}
+/* #hero-img{
+    width: 1000px !important;
+} */
+section #hero-msg {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+   justify-content: center; 
+}
+/* section {
+    display: inline-block;
+}*/
+
+.social img {
+    width: 50px;
+}
