@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 body {
-    /* max-width: px; */
+    font-family:Roboto, Helvetica, sans-serif ;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
@@ -11,9 +13,10 @@ body {
     max-width: 1000px;
 } */
 #logo_link{
-    display: flex;
-    align-items: left !important;
-    justify-content: left;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .logo img {    
@@ -22,6 +25,8 @@ body {
 .card-img {
     text-align: center;
     align-items: center;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3
 }
 .home-grid section{
     /* border: 1px solid blue; */
@@ -34,9 +39,12 @@ body {
     max-width: 300px;
     justify-content: center;
     align-items: center;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3
 }
 section img.icon {
     display: inline;
+    margin: 200px 0;
 } 
 .home-grid section h2 {
     text-align: center !important;
@@ -47,8 +55,11 @@ section img.icon {
 }
 
 nav a {
-    text-align: center;
-}
+    text-decoration: none;
+        color: #fcfbfb;
+        text-align: center;
+        padding: 35px;
+    }
 
 #hero-msg {
     display: block;
@@ -61,14 +72,13 @@ nav a {
 }
 #rural women gathering.jpg h2{
     text-align: center;
+    margin: 200px 0;
+
 } 
 #main class{
     text-align: center;
 }
 
-#background{
-    height: 725px;
-}
 header{
     background-color: rgba(12,10,20,.1);
 }
@@ -77,15 +87,28 @@ nav a:hover {
 }
 home-title{
     background:#ffffff;
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2 em;
+    margin-top: 10px;
 }
 h4{
     background-color: #ffffff;
     }
-.book, .join{
-    background-color:blanchedalmond
-}
+.donate .donate now{
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 18 px;
+    margin-top: 50px;
+    border-radius: 5px;
+}   
 .msg h2{
-    background-color: azure;
+    background-color:#6f7364;
+    font-size: Rock Salt,  Helvetica, sans-serif;
+    font-size: .8 em;
+    line-height: 1.5 em;
+    padding-bottom: 15px;
 }
 footer a{
     background-color: blanchedalmond;
@@ -102,23 +125,29 @@ logo.png{
 
 #rural women gathering_icon.png{
     width: 80px;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3;
+    box-sizing: border-box;
 }
 
 .African women working_icon.png{
-    width: 80px
+    width: 80px;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3;
+    box-sizing: border-box;
+    
 }
 .women farming_icon.png{
     width: 80px;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3;
+    box-sizing: border-box;
+ 
 }
 nav a{
     text-align: center;
     color: #1d1a05 ;
     text-decoration: none;
-}
-.donate{
-    text-align: center;
-    color: #1d1a05 ;
-    text-align: none;
 }
 footer a{
     text-align: center;
@@ -147,4 +176,43 @@ section #hero-msg {
 
 .social img {
     width: 50px;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+.icon {
+   padding-top: 10px;
+   
+}  
+
+footer {
+   background-color: #d9c2a3;
+   color: black;
+   text-decoration: none;
+   padding: 25px 50px;
+   margin-top: 200px
+} 
+footer .social img {
+  text-decoration: none;
+  color: #1d1a05;
+  text-align: center;
+  padding-top: 15px
+}  
+.msg p {
+  padding-bottom: 15px; 
+  background-color: #6f7364;
+    line-height: 1.5em;
+}  
+
+main section img {
+    box-sizing: border-box;
 }
